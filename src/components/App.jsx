@@ -1,9 +1,10 @@
+import Header from "./Header.jsx";
+
 export default function App() {
   return (
-    <>
-      <h1>
-        React & Vite template with Tailwind and other dependencies installed!
-      </h1>
-    </>
+    <div className="w-full lg:w-4/5 m-auto">
+      <Header />
+      <main></main>
+    </div>
   );
 }

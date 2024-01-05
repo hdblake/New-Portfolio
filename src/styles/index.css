@@ -9,3 +9,47 @@
 body {
   margin: 0 auto;
 }
+
+header {
+  width: 100%;
+  height: 185px;
+}
+
+#navbar a.active {
+  color: #f57701;
+}
+
+.hamburger {
+  display: none; /* Hide by default on larger screens */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 34px;
+  height: 5px;
+  background-color: #f57701;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu.open {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .logo {
+    width: 130px;
+    height: 30px;
+  }
+}

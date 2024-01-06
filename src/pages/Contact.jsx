@@ -1,6 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Contact() {
+  useEffect(() => {
+    document.title = "HB Portfolio | Contact";
+  });
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");

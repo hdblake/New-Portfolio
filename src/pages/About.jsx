@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 export default function About() {
+  useEffect(() => {
+    document.title = "HB Portfolio | About";
+  });
+
   return (
     <section className="p-4">
       <div className="flex flex-col gap-y-12 md:flex-row justify-center items-center">

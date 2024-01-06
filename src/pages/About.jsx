@@ -1,0 +1,56 @@
+export default function About() {
+  return (
+    <section className="p-4">
+      <div className="flex flex-col gap-y-12 md:flex-row justify-center items-center">
+        <div className="w-4/5 md:w-1/2">
+          <h1 className="text-[42px] md:text-5xl font-header text-accent text-center md:text-left">
+            About Me
+          </h1>
+          <p className="mt-6 font-mainText text-accent mt-2 text-md md:text-lg">
+            I am a recent graduate of BYU-Idaho with a Bachelors of Science in
+            Applied Technology with my main focus being in Web Development. I
+            graduated with a 3.94 GPA as well as with certificates in Web and
+            Computer Programming, Database, and Web Development. Through school,
+            I have 2 years of experience in frontend and 1 year of experience in
+            backend development. I am passionate about technology, and that
+            passion is the main reason for my career switch. I view myself as
+            someone who is eager to learn new things and I am constantly looking
+            at ways I can improve to further my skills. I am also a huge sports
+            fan. Being from the Chicago, IL area I am a die-hard Chicago fan and
+            love cheering on the Bears, Cubs, Bulls, and Blackhawks! In my free
+            time, I love to spend time with my family, play games, and play
+            golf!
+          </p>
+        </div>
+        <div className="flex flex-col items-center md:items-end gap-y-6 w-3/4 md:w-1/2">
+          <div className="rounded-xl shadow-lg border border-2 border-secondary w-3/4">
+            <h2 className="font-header text-primary text-2xl md:text-3xl text-center mt-2">
+              Degrees
+            </h2>
+            <ul className="list-disc list-inside p-4">
+              <li className="font-mainText text-lg">
+                Bachelors in Applied Technology
+              </li>
+              <li className="font-mainText text-lg">
+                Associate in General Studies
+              </li>
+            </ul>
+          </div>
+          <div className="rounded-xl shadow-lg border border-2 border-secondary w-3/4">
+            <h2 className="font-header text-primary text-2xl md:text-3xl text-center mt-2">
+              Certificates
+            </h2>
+            <ul className="list-disc list-inside p-4">
+              <li className="font-mainText text-lg">Web Development</li>
+              <li className="font-mainText text-lg">Database</li>
+              <li className="font-mainText text-lg">
+                Web and Computer Programming
+              </li>
+              <li className="font-mainText text-lg">Management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

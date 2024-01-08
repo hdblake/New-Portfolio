@@ -28,9 +28,9 @@ export default function About() {
             golf!
           </p>
         </div>
-        <div className="flex flex-col items-center md:items-end gap-y-6 w-3/4 md:w-1/2">
-          <div className="rounded-xl shadow-lg border border-2 border-secondary w-3/4">
-            <h2 className="font-header text-primary text-2xl md:text-3xl text-center mt-2">
+        <div className="flex flex-col items-center md:items-end gap-y-8 w-3/4 md:w-1/2">
+          <div className="rounded-xl shadow-lg border border-2 border-primary w-3/4">
+            <h2 className="font-header bg-primary text-accent rounded-t-lg p-2 text-2xl md:text-3xl text-center">
               Degrees
             </h2>
             <ul className="list-disc list-inside p-4">
@@ -42,8 +42,8 @@ export default function About() {
               </li>
             </ul>
           </div>
-          <div className="rounded-xl shadow-lg border border-2 border-secondary w-3/4">
-            <h2 className="font-header text-primary text-2xl md:text-3xl text-center mt-2">
+          <div className="rounded-xl shadow-lg border border-2 border-primary w-3/4">
+            <h2 className="font-header bg-primary text-accent rounded-t-lg p-2 text-2xl md:text-3xl text-center">
               Certificates
             </h2>
             <ul className="list-disc list-inside p-4">

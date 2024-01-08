@@ -19,12 +19,12 @@ export default function Home() {
         </p>
         <div className="mt-8 flex flex-row gap-x-6 lg:gap-x-12 justify-center">
           <Link to="/contact">
-            <button className="font-mainText text-accent2 text-2xl lg:text-3xl p-4 bg-primary rounded-xl shadow-lg transition duration-300 ease-in hover:-translate-y-1 hover:scale-110">
+            <button className="font-mainText text-accent text-2xl lg:text-3xl p-4 bg-primary rounded-xl shadow-lg transition duration-300 ease-in hover:-translate-y-1 hover:scale-110">
               Contact
             </button>
           </Link>
           <Link to={resume} target="_blank" rel="noopener noreferrer">
-            <button className="font-mainText text-accent2 text-2xl lg:text-3xl p-4 bg-primary rounded-xl shadow-lg transition duration-300 ease-in hover:-translate-y-1 hover:scale-110">
+            <button className="font-mainText text-accent text-2xl lg:text-3xl p-4 bg-primary rounded-xl shadow-lg transition duration-300 ease-in hover:-translate-y-1 hover:scale-110">
               Resume
             </button>
           </Link>

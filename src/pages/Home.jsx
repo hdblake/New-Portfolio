@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 import resume from "../images/Resume.pdf";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    document.title = "HB Portfolio | Home";
+  });
+
   return (
     <section className="p-4 absolute top-1/3">
       <h1 className="text-[42px] md:text-5xl font-header text-accent text-center md:text-left">

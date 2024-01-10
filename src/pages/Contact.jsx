@@ -17,23 +17,16 @@ export default function Contact() {
       .join("&");
   }
 
-  const handleSubmit = async (e) => {
+  function handleSubmit(e) {
     e.preventDefault();
-    try {
-      const response = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "Contact", name, email, message }),
-      });
-      if (response.ok) {
-        const result = await response.json();
-        alert("Form successfully sent!");
-        return result;
-      }
-    } catch (error) {
-      alert("Error: ", error);
-    }
-  };
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", name, email, message }),
+    })
+      .then(() => alert("Message successfully sent!"))
+      .catch((error) => alert(error));
+  }
 
   return (
     <section className="p-4">

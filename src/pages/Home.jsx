@@ -17,7 +17,7 @@ export default function Home() {
         </span>
       </h1>
       <div className="flex flex-col justify-center lg:flex-row-reverse lg:justify-between">
-        <div className="mt-8 lg:-mt-12 lg:mr-24 xl:mr-32 w-auto flex justify-center">
+        <div className="mt-8 lg:-mt-16 lg:mr-24 xl:mr-36 w-auto flex justify-center">
           <img
             src={selfie}
             alt="Photo of myself"

@@ -17,7 +17,8 @@ export default function Contact() {
       .join("&");
   }
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     try {
       const response = await fetch("/", {
         method: "POST",

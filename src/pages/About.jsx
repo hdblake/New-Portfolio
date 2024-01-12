@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import SocialButton from "../components/SocialButton.jsx";
 
 export default function About() {
   useEffect(() => {
@@ -27,6 +28,16 @@ export default function About() {
             time, I love to spend time with my family, play games, and play
             golf!
           </p>
+          <div className="flex flex-row flex-wrap gap-x-6 mt-8 justify-center md:justify-start">
+            <SocialButton
+              link={"https://www.linkedin.com/in/hunter-blake/"}
+              socialName={"LinkedIn"}
+            />
+            <SocialButton
+              link={"https://github.com/hdblake"}
+              socialName={"GitHub"}
+            />
+          </div>
         </div>
         <div className="flex flex-col items-center md:items-end gap-y-8 w-3/4 md:w-1/2">
           <div className="rounded-xl shadow-lg border border-2 border-primary w-3/4">

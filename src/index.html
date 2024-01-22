@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../src/styles/index.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/hb-high-resolution-logo-transparent.webp">
     <script type="module" src="./components/main.jsx"></script>
     <title>HB Portfolio | Home</title>
   </head>
   <body>
     <form name="Contact" netlify hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <label for="message">Message</label>
+      <textarea name="message" id="message"></textarea>
     </form>
     <div id="root"></div>
   </body>

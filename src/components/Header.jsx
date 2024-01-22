@@ -17,7 +17,7 @@ export default function Header() {
           <img
             src={lgLogo}
             srcSet={`${smLogo} 768w, ${lgLogo} 3080w`}
-            alt="logo"
+            alt="my personal logo"
             className="logo"
             width={240}
             height={43}

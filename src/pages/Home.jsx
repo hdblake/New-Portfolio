@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import resume from "../images/Resume.pdf";
+import resume from "../images/New-Resume.pdf";
 import selfie from "../images/me.jpg";
 import { useEffect } from "react";
 

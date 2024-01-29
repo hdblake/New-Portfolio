@@ -28,10 +28,10 @@ export default function Home() {
         </div>
         <div className="w-full lg:w-2/5 mt-2 text-md md:text-lg text-center lg:text-left">
           <p className="font-mainText text-accent">
-            I am a full-stack developer with 2 years in frontend and 1 year in
-            backend development. You&apos;ll learn about me, my skills, and see
-            some examples of my work. You can also reach out via the contact
-            form below and view my resume!
+            I am a Front End developer with 2 years experience and 1 year
+            experience in backend development. You&apos;ll learn about me, my
+            skills, and see some examples of my work. You can also reach out via
+            the contact form below and view my resume!
           </p>
           <div className="mt-8 flex flex-row gap-x-6 lg:gap-x-12 justify-center">
             <Link to="/contact">

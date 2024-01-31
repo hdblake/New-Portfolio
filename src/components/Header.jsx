@@ -47,6 +47,16 @@ export default function Header() {
                 </li>
                 <li className="font-mainText text-accent text-xl md:text-2xl hover:underline hover:decoration-2 hover:decoration-primary">
                   <NavLink
+                    to="/projects"
+                    className={({ isActive, isPending }) =>
+                      isPending ? "pending" : isActive ? "active" : ""
+                    }
+                  >
+                    Projects
+                  </NavLink>
+                </li>
+                <li className="font-mainText text-accent text-xl md:text-2xl hover:underline hover:decoration-2 hover:decoration-primary">
+                  <NavLink
                     to="/about"
                     className={({ isActive, isPending }) =>
                       isPending ? "pending" : isActive ? "active" : ""
@@ -63,16 +73,6 @@ export default function Header() {
                     }
                   >
                     Skills
-                  </NavLink>
-                </li>
-                <li className="font-mainText text-accent text-xl md:text-2xl hover:underline hover:decoration-2 hover:decoration-primary">
-                  <NavLink
-                    to="/projects"
-                    className={({ isActive, isPending }) =>
-                      isPending ? "pending" : isActive ? "active" : ""
-                    }
-                  >
-                    Projects
                   </NavLink>
                 </li>
               </ul>

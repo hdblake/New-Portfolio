@@ -2,6 +2,7 @@ import electrons from "../images/electrons.png";
 import chamber from "../images/chamber.png";
 import sleep from "../images/sleepoutside.png";
 import macxmac from "../images/macxmac.png";
+import calculator from "../images/calculator.png";
 
 export const projects = [
   {
@@ -31,5 +32,12 @@ export const projects = [
     link: "https://hdblake.github.io/Chamber-of-Commerce/",
     repo: "https://github.com/hdblake/Chamber-of-Commerce",
     image: chamber,
+  },
+  {
+    title: "Calculator",
+    skills: "React and Tailwind",
+    link: "https://react-calculator-hdblake.vercel.app/",
+    repo: "https://github.com/hdblake/React-Calculator",
+    image: calculator,
   },
 ];
